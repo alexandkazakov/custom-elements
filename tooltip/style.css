@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: #424242;
+}
+
+.box {
+    max-width: 375px;
+    padding: 20px 78px 20px 29px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #333333;
+}
+
+.marker {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    fill: #bcbcbc;
+}
+
+.marker:hover {
+    fill: #ccb26e;
+}
+
+.tippy-box {
+    background-color: #666;
+}
+
+.tippy-content {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+}
+
+.tippy-arrow {
+    color: #666;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    padding: 50px;
+    background-color: #424242;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 170%;
+    color: #333333;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 399px;
+    height: 310px;
+    padding: 20px 30px;
+    background-color: #fff;
+}
+
+.simplebar-scrollbar:before {
+    background: #CCB26E;
+    border-radius: 5px;
+}
+
+.simplebar-scrollbar.simplebar-visible:before {
+    opacity: 1;
+}
